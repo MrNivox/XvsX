@@ -1,7 +1,7 @@
 
 
 
-const fetch = require("node-fetch") //import fetch
+
 const BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAA8N4AEAAAAACD2zSabdhBqoYaOa2uvJVYzkoFw%3DSRfYr0YrokXkwJC95Q5HXKSOm0TNdFWd8ErAAvF48Rabt6Ibll" // X api authenticator token
 
 async function searchTweets(keyword) {
