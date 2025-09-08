@@ -36,7 +36,7 @@ async function searchTweets(keyword) {
 
     console.log("Nasa sample:", keyWord1[0])
     console.log("SpaceX sample:", keyWord2[0])
-})
+})();
     
 
 
