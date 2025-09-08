@@ -11,9 +11,9 @@ async function searchTweets(keyword) {
     url.searchParams.append("tweet.fields", "public_metrics,created_at")
 
     const response = await fetch(url,{ //call api
-    headers:{
-        "Authorization": `Bearer ${BEARER_TOKEN}` //give your token
-    }
+        headers:{
+            "Authorization": `Bearer ${BEARER_TOKEN}` //give your token
+        }
    });
 
     
